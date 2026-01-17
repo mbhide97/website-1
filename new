@@ -1,0 +1,65 @@
+ <header>
+        <nav >
+            <div class="logo">
+                 <img src="logo-1.png" height="75 " width="180" >
+            </div>
+             <div class="menu">
+                
+                 <a href="#home"> Home</a>
+                 <a href="#about">About</a>
+                 <a href="#gallery">Gallery</a>
+                 <a href="#contact">Contact</a>
+                
+            </div>
+        </nav>
+            <section class="h-text">
+                <i class="fa fa-camera" id="camera"></i>
+                <h1>Welcome To Madhura's Art World.</h1>
+                <i class="fa fa-thumbs-up" style="font-size:48px;color:black "></i>
+            </section>
+        </header>
+
+
+
+
+        
+                <ul class="menu">
+                     <li><a href="#"> Home</a></li>
+                     <li><a href="#">Products</a></li>
+                     <li id="drp"><a href="#">Services </a><sup style="color:white">&#x2304 </sup>
+                        <ul class="sub-div">
+                         <li><a href="#"> Design</a></li><br>
+                         <li><a href="#"> Developement</a></li><br>
+                         <li><a href="#"> Marketing</a></li>
+                       </ul>
+                     </li>
+                     <li><a href="#">My Account</a></li>
+                     <li><a href="#"><span class="glyphicon glyphicon-shopping-cart">MyCart</span></a></li>
+                </ul>
+            
+            </div>
+            </nav>
+
+
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            header{
+                height: 100%;
+                width: 100%;
+                padding: 5px;
+            }
+            nav{
+                padding: 0px 90px;
+                width: 100%;
+                background-color: aliceblue; 
+                height: 55px;
+                line-height: 60px;
+            }
+            .logo{
+                margin-left: 80px;
+                font-size: 25px;
+                font-weight: bold;
+            }
